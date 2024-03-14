@@ -13,9 +13,9 @@ The designs were created to the following widths:
 
 ### Neutral
 
-- Almost White: hsl(0, 0%, 98%)
-- Medium Gray: hsl(0, 0%, 41%)
-- Almost Black: hsl(0, 0%, 8%)
+--almost-white: hsl(0, 0%, 98%);
+--medium-gray: hsl(0, 0%, 41%);
+--almost-black: hsl(0, 0%, 8%);
 
 ## Typography
 
