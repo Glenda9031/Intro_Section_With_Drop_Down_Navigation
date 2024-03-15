@@ -49,5 +49,80 @@ ul {
     grid-template-columns: repeat(2, 1fr);
 }
 
+.section {
+    max-width: 140rem;
+    padding: 2rem;
+    margin: 3.8rem auto 0 auto;
+    justify-items: center;
+}
+
+.row {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.btn {
+    background-color: inherit;
+    border: none;
+    font-family: inherit;
+    font-size: inherit;
+    cursor: pointer;
+    padding: 1.2rem 2.4rem;
+    border-radius: .875rem;
+    transition: all 100ms;
+}
+
+/* SECTION */
+.col-text {
+    max-width: 43rem;
+    align-self: end;
+}
+
+.col-text p {
+    margin-bottom: 2.6rem;
+}
+
+.brands {
+    justify-content: space-between;
+}
+
+.btn--learn {
+    padding: 1.5rem 2.8rem;
+    margin-bottom: 6.8rem;
+    transition: all 150ms;
+    color: var(--almost-white);
+    background-color: var(--almost-black);
+    border: .0625rem solid var(--almost-black);
+}
+
+.btn--learn:hover {
+    background-color: var(--almost-white);
+    color: var(--almost-black);
+}
+
+.col-img {
+    max-width: 36rem;
+}
+
+.hero-img {
+    width: 100%;
+    border-radius: 1.5rem;
+}
+
+/* Header */
+.header {
+    padding: 2.2rem 4.8rem;
+    gap: 5.8rem;
+    z-index: 999;
+}
+
+.nav {
+    font-size: 1.5rem;
+    width: 100%;
+    align-items: center;
+    justify-content: space-between;
+}
+
 
 
