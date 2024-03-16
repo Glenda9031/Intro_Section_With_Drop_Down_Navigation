@@ -3,79 +3,37 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
   <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
-  <link rel="stylesheet" href="css/style.css">
+  
   <title>Frontend Mentor | Intro section with dropdown navigation</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
 </head>
 <body>
-  <header class="row-header">
-    <img src="./images/logo.svg" alt="logo">
-    <nav class="row nav">
-      <ul class="row nav__list">
-        <li class="hidden features row menu">
-          <div class="row menu--name">
-            Features
-            <img src="./images/icon-arrow-down.svg" data-srcup="./images/icon-arrow-up" data-srcdown="./images/icon-arrow-down" alt="arrow down">
-          </div>
 
-          <ul class="popMenu">
-            <li><img src="./images/icon-todo.svg" alt=""> Todo List</li>
-            <li><img src="./images/icon-calendar.svg" alt=""> Calendar</li>
-            <li><img src="./images/icon-reminders.svg" alt=""> Reminders</li>
-            <li><img src="./images/icon-planning.svg" alt=""> Planning</li>
-          </ul>
-        </li>
+  Features
+  Company
+  Careers
+  About
 
-        <li class="hidden features row menu">
-          <div class="row menu--name">
-            Company
-            <img src="./images/icon-arrow-down.svg" data-srcup="./images/icon-arrow-up" data-srcdown="./images/icon-arrow-down" alt="arrow down">
-          </div>
+  Login
+  Register
 
-          <ul class="popMenu">
-            <li>History</li>
-            <li>Our Team</li>
-            <li>Blog</li>
-          </ul>
-        </li>
-        <li>Careers</li>
-        <li>About</li>
-      </ul>
+  Make remote work
 
-      <div class="btns--row row">
-        <button class="btn btn--login">Login</button>
-        <button class="btn btn--register">Register</button>
-      </div>
-    </nav>
-    <button class="btn side-menu-btn">
-      data-open="http://127.0.0.1:5500/images/icon-menu.svg"
-      data-close="http://127.0.0.1:5500/images/icon-close-menu.svg">
-      <img src="./images/icon-menu.svg" alt="menu">
-    </button>
-  </header>
+  Get your team in sync, no matter your location. Streamline processes, 
+  create team rituals, and watch productivity soar.
 
-  <section class="section grid grid--2cols">
-    <div class="col-text grid-col">
-      <h1 class="h1">Make remote work</h1>
-      <p>Get your team in sync, no matter your location. Streamline processes, 
-        create team rituals, and watch productivity soar.</p>
-      <button class="btn btn--learn">Learn more</button>
-      
-      <div class="row brands">
-        <img src="./images/client-databiz.svg" alt="databiz">
-        <img src="./images/client-audiophile.svg" alt="audiophile">
-        <img src="./images/client-meet.svg" alt="meet">
-        <img src="./images/client-maker.svg" alt="maker">
-      </div>
-    </div>
-
-    <div class="col-img grid-col">
-      <picture>
-        <source srcset="./images/image-hero-desktop.png" media="(min-width: 47.5em)"/>
-        <img src="./images/image-hero-mobile.png" alt="hero" class="hero-img">
-      </picture>
-    </div>
-  </section>
-  <script src="script.js"></script>
+  Learn more
+  
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Your Name Here</a>.
+  </div>
 </body>
 </html>
