@@ -153,7 +153,7 @@ header label {
     list-style: none;
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: space-around;
     align-items: left;
     margin-right: 1.5rem;
     padding: 1rem;
@@ -197,6 +197,39 @@ header label {
         background-color: #fff;
         border-top: .0625rem solid #000;
         display: none;
+    }
+
+    header .navbar ul li {
+        width: 100%;
+        text-align: right;
+    }
+
+    header .navbar ul li ul {
+        position: absolute;
+        width: 100%;
+    }
+
+    header .navbar ul li ul li {
+        background-color: #eee;
+    }
+
+    header .navbar ul li ul li ul {
+        left: 0;
+        width: 100%;
+    }
+
+    label {
+        background: url('../images/icon-menu.svg') no-repeat center center/cover;
+        width: 5rem;
+        height: 3vh;
+    }
+
+    #menu-bar:checked ~ .navbar {
+        display: initial;
+    }
+
+    #menu-bar:checked ~ .label {
+        background: url('../images/icon-close.svg') no-repeat center center/contain;
     }
 }
 
