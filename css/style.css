@@ -102,3 +102,101 @@ header label {
     cursor: pointer;
     height: 4.5vh;
 }
+
+.hero {
+
+}
+
+.hero-image {
+
+}
+
+.hero-text {
+    text-align: left;
+    text-decoration: none;
+}
+
+.hero-header {
+    font-size: 3rem;
+    color: #000;
+    left: 0;
+    text-align: left;
+    font-weight: 700;
+    line-height: 1.1;
+}
+
+.hero-copy {
+    margin: 0 0 10%;
+    color: gray;
+    font-size: 1rem;
+    line-height: 1.5rem;
+    text-align: left;
+}
+
+.btn--learn {
+    width: 10rem;
+    height: 3rem;
+    background-color: #000;
+    color: #fff;
+    border-radius: .625rem;
+    text-decoration: none;
+}
+
+.btn--learn:hover {
+    background-color: #fff;
+    color: #000;
+    cursor: pointer;
+}
+
+.client-list ul {
+    text-decoration: none;
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: left;
+    margin-right: 1.5rem;
+    padding: 1rem;
+    left: 0;
+}
+
+@media (min-width: 37.5rem) {
+    .hero {
+        margin: 10rem;
+        display: flex;
+        flex-direction: row-reverse;
+    }
+
+    .hero-image {
+        width: 15rem;
+        height: 80vh;
+    }
+}
+
+@media (max-width: 37.5rem) {
+    header {
+        padding: 1.25rem;
+    }
+
+    .learn {
+        display: none;
+    }
+
+    .reg {
+        display: none;
+    }
+
+    header label {
+        display: initial;
+    }
+
+    header .navbar {
+        position: absolute;
+        top: 100%;
+        right: 0;
+        background-color: #fff;
+        border-top: .0625rem solid #000;
+        display: none;
+    }
+}
+
