@@ -30,6 +30,12 @@ header {
   z-index: 1000;
 }
 
+.logo {
+    width: 20vh;
+    height: 3rem;
+    margin-top: 1.75rem;
+}
+
 .navbar ul {
     list-style: none;
 }
@@ -83,24 +89,36 @@ header label {
     display: none;
 }
 
-.learn {
-    font-size: .9375rem;
+.login {
+    font-size: .75rem;
     width: 5rem;
     text-decoration: none;
-    background-color: #000;
-    border: none;
+    background-color: #fff;
+    color: #000;
+    border: .125rem solid #000;
+    border-radius: .3125rem;
+    font-weight: 500;
+    /*padding: .125rem 0 .125rem 0;*/
     cursor: pointer;
 }
 
 .reg {
-    font-size: .9375rem;
+    font-size: .75rem;
     width: 5rem;
+    font-weight: 500;
     text-decoration: none;
     background-color: #fff;
-    border: .0313rem solid #000;
+    border: .125rem solid #000;
     border-radius: .3125rem;
-    cursor: pointer;
     height: 4.5vh;
+    margin-left: 1.25rem;
+}
+
+.login:hover,
+.reg:hover {
+    background-color: #000;
+    color: #fff;
+    cursor: pointer;
 }
 
 .hero {
@@ -155,10 +173,14 @@ header label {
     flex-direction: row;
     justify-content: space-around;
     align-items: left;
-    margin-right: 1.5rem;
+    margin-right: 2rem;
     padding: 1rem;
     left: 0;
 }
+
+.client-list img {
+    margin: .5rem;
+    }
 
 @media (min-width: 37.5rem) {
     .hero {
